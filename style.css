@@ -63,7 +63,9 @@ address {
 
 #page-content li {
   list-style: none;
-  font-size: 1.2em;
+  font-family: 'Josefin Slab', serif;
+  font-size: 1.4em;
+  line-height: 1.6em;
 }
 
 #contact-address {
@@ -106,4 +108,15 @@ address {
 .separator:after {
   content: "—";
   font-size: 2em;
+}
+
+@media only screen and (max-width : 640px) {
+  body > section {
+    width: 100%;
+    margin: 0.2em;
+  }
+
+  #site-navigation ul, #site-navigation li {
+    display: block;
+  }
 }
