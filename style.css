@@ -131,7 +131,8 @@ footer>section {
     padding: 0;
   }
   #page-content p {
-    text-align: left;
+    font-size: 1.2em;
+    line-height: 1.4em;
   }
   #contact-address {
     font-size: 1.5em;
