@@ -40,8 +40,8 @@ address {
 }
 
 #page-content {
-  width: 75%;
-  margin: 0 auto;
+  width: 85%;
+  margin-left: 1em;
   margin-bottom: 6em;
 }
 
@@ -54,8 +54,10 @@ address {
 }
 
 #page-content p {
-  font-size: 1.2em;
-  line-height: 1.4em;
+  text-align: justify;
+  font-family: 'Cormorant Infant', serif;
+  font-size: 1.4em;
+  line-height: 1.6em;
   margin: 2em 0;
 }
 
