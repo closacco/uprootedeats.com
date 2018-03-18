@@ -1,0 +1,107 @@
+body * {
+  margin: 0;
+  padding: 0;
+}
+
+body > section {
+  width: 640px;
+  margin: 0 auto;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ccc;
+}
+
+.centered-flexbox {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+h1 > img {
+  width: 100%;
+}
+
+h2, h3 {
+  text-transform: lowercase;
+  font-family: Quickbrush;
+  font-weight: normal;
+  font-size: 2em;
+  margin: 1em 0;
+}
+
+address {
+  font-style: normal;
+}
+
+#page-content {
+  width: 75%;
+  margin: 0 auto;
+  margin-bottom: 6em;
+}
+
+#page-content h2 {
+  text-align: center;
+}
+
+#page-content h3 {
+  margin-bottom: 0;
+}
+
+#page-content p {
+  font-size: 1.2em;
+  line-height: 1.4em;
+  margin: 2em 0;
+}
+
+#page-content li {
+  list-style: none;
+  font-size: 1.2em;
+}
+
+#contact-address {
+  font-family: Quickbrush;
+  font-size: 2.4em;
+  line-height: 1.6em;
+}
+
+#site-navigation ul {
+  width: 75%;
+}
+
+#site-navigation li, #social-links li {
+  list-style: none;
+  display: inline;
+  text-transform: lowercase;
+  font-family: Quickbrush;
+  font-size: 2em;
+  margin: 1em 0;
+}
+
+#social-links ul {
+  width: 50%;
+}
+
+#social-links h4 {
+  display: none;
+}
+
+.separator {
+  font-family: Quickbrush;
+  width: 5%;
+  margin: 0 auto;
+}
+
+.separator hr {
+  display: none;
+}
+
+.separator:after {
+  content: "—";
+  font-size: 2em;
+}
