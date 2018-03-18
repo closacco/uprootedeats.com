@@ -127,19 +127,18 @@ footer>section {
     width: 100%;
     margin: 0.2em;
   }
-
   footer>section {
     padding: 0;
   }
-
+  #page-content p {
+    text-align: left;
+  }
   #contact-address {
     font-size: 1.5em;
   }
-
   #site-navigation ul, #site-navigation li {
     display: block;
   }
-
   #site-navigation li {
     text-align: center;
   }
