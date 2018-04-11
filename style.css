@@ -68,6 +68,11 @@ address {
   line-height: 1.6em;
 }
 
+#tickets-link {
+  font-weight: bold;
+  color: red;
+}
+
 #contact-address {
   font-family: Quickbrush;
   font-size: 2em;
